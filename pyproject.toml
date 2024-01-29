@@ -9,3 +9,9 @@ readme = "README.md"
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
+dependencies = [
+    "pandas>=1.0.0", # Specify the version of pandas you depend on
+]
+
+[project.urls]
+Home = "https://github.com/rbrtrss/lobsterparser"
